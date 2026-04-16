@@ -45,12 +45,13 @@ This project emphasizes the importance of **drift-aware evaluation** and **cost-
 ---
 
 ## Project Structure
-
+```bash
 ├── notebooks/
 │ └── recommendation_system_final.ipynb
 ├── report/
 │ └── final_report.pdf
 └── README.md
+```
 
 ---
 
