@@ -1,6 +1,6 @@
 # ML Recommendation System Evaluation
 
-This project presents the development and evaluation of a recommendation system using matrix factorization (TruncatedSVD). The focus is not only on generating recommendations, but also on understanding model behavior under realistic conditions, including temporal validation, error analysis, and model reliability.
+This project presents the development and evaluation of a recommendation system using matrix factorization (TruncatedSVD). The focus is not only on generating recommendations, but also on understanding model behavior under realistic conditions, including temporal validation, error analysis, and model reliability, with an emphasis on drift-aware evaluation and cost-efficient retraining strategies.
 
 ---
 
