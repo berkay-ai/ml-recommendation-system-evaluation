@@ -1,5 +1,11 @@
 # ML Recommendation System Evaluation
 
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-yellow)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
+
 This project presents the development and evaluation of a recommendation system using matrix factorization (TruncatedSVD). The focus is not only on generating recommendations, but also on understanding model behavior under realistic conditions, including temporal validation, error analysis, and model reliability, with an emphasis on drift-aware evaluation and cost-efficient retraining strategies.
 
 ---
@@ -55,6 +61,16 @@ This project emphasizes the importance of **drift-aware evaluation** and **cost-
 
 ---
 
+## Dataset
+
+This project uses the Instacart Online Grocery Shopping Dataset.
+
+- Source: https://www.kaggle.com/c/instacart-market-basket-analysis
+
+The dataset contains anonymized user-product interaction data and is used to simulate real-world recommendation scenarios.
+
+---
+
 ## Notebook
 
 The main implementation and evaluation pipeline can be found here:
@@ -73,13 +89,12 @@ The full technical report is available here:
 
 ## Future Work
 
-- Implement drift detection mechanisms  
-- Develop cost-aware retraining strategies  
-- Deploy the system using API-based architecture  
-- Explore advanced recommendation models  
+Next steps to productionize this system include:
 
----
+- Implementing drift detection to monitor performance degradation  
+- Defining retraining triggers based on performance thresholds  
+- Introducing cost-aware retraining to balance performance and computation  
+- Deploying the model via an API for real-time inference  
 
-## Author
 
-Berkay
+
