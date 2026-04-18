@@ -63,11 +63,11 @@ This project emphasizes the importance of **drift-aware evaluation** and **cost-
 
 ## Dataset
 
-This project uses the Instacart Online Grocery Shopping Dataset.
+This project uses the Instacart Online Grocery Shopping Dataset, which contains anonymized user-product interaction data.
 
-- Source: https://www.kaggle.com/c/instacart-market-basket-analysis
+- Source: Kaggle (Instacart Market Basket Analysis dataset)
 
-The dataset contains anonymized user-product interaction data and is used to simulate real-world recommendation scenarios.
+Note: The dataset is publicly available on Kaggle and requires login for access.
 
 ---
 
